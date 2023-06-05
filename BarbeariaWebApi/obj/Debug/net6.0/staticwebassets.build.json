@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OFwFmDDXn1iMWF+lxhgcKmjVL5N2vJyohl+alavbUAQ=",
+  "Source": "BarbeariaWebApi",
+  "BasePath": "_content/BarbeariaWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

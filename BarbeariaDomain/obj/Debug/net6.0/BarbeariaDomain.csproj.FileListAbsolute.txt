@@ -1,0 +1,12 @@
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\bin\Debug\net6.0\BarbeariaDomain.deps.json
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\bin\Debug\net6.0\BarbeariaDomain.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\bin\Debug\net6.0\BarbeariaDomain.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.csproj.AssemblyReference.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\refint\BarbeariaDomain.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\BarbeariaDomain.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaDomain\obj\Debug\net6.0\ref\BarbeariaDomain.dll

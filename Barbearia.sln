@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.WebApi", "1.WebApi", "{CC8C723B-62E0-4D72-8A50-AF2BD3DFFF5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{59D5771B-A0AB-44EE-92CF-078B5F9252FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Repositories", "3.Repositories", "{7C6DEF68-7738-448A-A446-8A758C272CF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Data", "4.Data", "{D54E923E-8F00-4045-9C81-6D88D38CD6A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbeariaData", "BarbeariaData\BarbeariaData.csproj", "{4295390B-19BD-4DA6-9DAF-D27A1B343587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbeariaDomain", "BarbeariaDomain\BarbeariaDomain.csproj", "{5C38982F-A297-4526-9F06-8B480400AE36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbeariaWebApi", "BarbeariaWebApi\BarbeariaWebApi.csproj", "{82A1F5C5-BE77-4523-BAC1-D3457897A68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbeariaRepositories", "BarbeariaRepositories\BarbeariaRepositories.csproj", "{79CCF8D7-57A3-4BC8-83C5-75865BD60C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDD", "BDD\BDD.csproj", "{84F51B69-BFCF-4447-952E-453FC16F5488}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4295390B-19BD-4DA6-9DAF-D27A1B343587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4295390B-19BD-4DA6-9DAF-D27A1B343587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4295390B-19BD-4DA6-9DAF-D27A1B343587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4295390B-19BD-4DA6-9DAF-D27A1B343587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C38982F-A297-4526-9F06-8B480400AE36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C38982F-A297-4526-9F06-8B480400AE36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C38982F-A297-4526-9F06-8B480400AE36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C38982F-A297-4526-9F06-8B480400AE36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A1F5C5-BE77-4523-BAC1-D3457897A68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A1F5C5-BE77-4523-BAC1-D3457897A68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A1F5C5-BE77-4523-BAC1-D3457897A68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A1F5C5-BE77-4523-BAC1-D3457897A68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CCF8D7-57A3-4BC8-83C5-75865BD60C77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CCF8D7-57A3-4BC8-83C5-75865BD60C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CCF8D7-57A3-4BC8-83C5-75865BD60C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CCF8D7-57A3-4BC8-83C5-75865BD60C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F51B69-BFCF-4447-952E-453FC16F5488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F51B69-BFCF-4447-952E-453FC16F5488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F51B69-BFCF-4447-952E-453FC16F5488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F51B69-BFCF-4447-952E-453FC16F5488}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4295390B-19BD-4DA6-9DAF-D27A1B343587} = {D54E923E-8F00-4045-9C81-6D88D38CD6A3}
+		{5C38982F-A297-4526-9F06-8B480400AE36} = {59D5771B-A0AB-44EE-92CF-078B5F9252FA}
+		{82A1F5C5-BE77-4523-BAC1-D3457897A68F} = {CC8C723B-62E0-4D72-8A50-AF2BD3DFFF5D}
+		{79CCF8D7-57A3-4BC8-83C5-75865BD60C77} = {7C6DEF68-7738-448A-A446-8A758C272CF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91C55E2D-8FA8-4B42-BACF-4A5CEFE81EE8}
+	EndGlobalSection
+EndGlobal

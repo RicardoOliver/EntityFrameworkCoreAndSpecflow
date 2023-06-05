@@ -1,0 +1,17 @@
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaRepositories.deps.json
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaRepositories.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaRepositories.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaData.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaDomain.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaData.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\bin\Debug\net6.0\BarbeariaDomain.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.csproj.AssemblyReference.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.AssemblyInfoInputs.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.AssemblyInfo.cs
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.csproj.CopyComplete
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\refint\BarbeariaRepositories.dll
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\BarbeariaRepositories.pdb
+C:\Users\Ricardo\source\repos\Barbearia\BarbeariaRepositories\obj\Debug\net6.0\ref\BarbeariaRepositories.dll
