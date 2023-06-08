@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BarbeariaData.Migrations
 {
     [DbContext(typeof(BarberShopContext))]
-    [Migration("20230605001134_CreateTableBarbearia")]
-    partial class CreateTableBarbearia
+    [Migration("20230607222001_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,36 +33,44 @@ namespace BarbeariaData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AgendamentoId"));
 
-                    b.Property<int>("ClienteId")
-                        .HasColumnType("int");
+                    b.Property<string>("Cliente")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("DataHora")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FuncionarioId")
-                        .HasColumnType("int");
+                    b.Property<string>("Descricao")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
-                    b.Property<int>("ServicoId")
-                        .HasColumnType("int");
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("AgendamentoId");
-
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("FuncionarioId");
-
-                    b.HasIndex("ServicoId");
 
                     b.ToTable("Agendamentos", (string)null);
                 });
 
             modelBuilder.Entity("BarbeariaDomain.Entities.Cliente", b =>
                 {
-                    b.Property<int>("ClienteId")
+                    b.Property<int>("ClientId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteId"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClientId"));
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
@@ -79,7 +87,7 @@ namespace BarbeariaData.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.HasKey("ClienteId");
+                    b.HasKey("ClientId");
 
                     b.ToTable("Clientes", (string)null);
                 });
@@ -92,6 +100,11 @@ namespace BarbeariaData.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("FuncionarioId"));
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
                     b.Property<string>("Funcao")
                         .IsRequired()
                         .HasMaxLength(100)
@@ -102,7 +115,8 @@ namespace BarbeariaData.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<decimal>("Salario")
+                    b.Property<decimal?>("Salario")
+                        .IsRequired()
                         .HasColumnType("decimal(10, 2)");
 
                     b.Property<string>("Telefone")
@@ -139,33 +153,6 @@ namespace BarbeariaData.Migrations
                     b.HasKey("ServicoId");
 
                     b.ToTable("Servicos", (string)null);
-                });
-
-            modelBuilder.Entity("BarbeariaDomain.Entities.Agendamento", b =>
-                {
-                    b.HasOne("BarbeariaDomain.Entities.Cliente", "Cliente")
-                        .WithMany()
-                        .HasForeignKey("ClienteId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("BarbeariaDomain.Entities.Funcionario", "Funcionario")
-                        .WithMany()
-                        .HasForeignKey("FuncionarioId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("BarbeariaDomain.Entities.Servico", "Servico")
-                        .WithMany()
-                        .HasForeignKey("ServicoId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Cliente");
-
-                    b.Navigation("Funcionario");
-
-                    b.Navigation("Servico");
                 });
 #pragma warning restore 612, 618
         }

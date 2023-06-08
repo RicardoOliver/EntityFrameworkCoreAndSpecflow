@@ -1,6 +1,7 @@
 ﻿using BarbeariaData.DataConfig;
 using BarbeariaDomain.Entities;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 namespace BarbeariaData.Contexto
 {
@@ -11,6 +12,7 @@ namespace BarbeariaData.Contexto
                : base(options)
         {
         }
+
         // Defina suas propriedades DbSet e configure seu modelo
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Funcionario> Funcionarios { get; set; }
@@ -28,7 +30,13 @@ namespace BarbeariaData.Contexto
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(""); // Substitua "sua_string_de_conexao" pela sua string de conexão com o banco de dados
+            optionsBuilder.UseSqlServer("Server=RICARDO-OLIVEIR\\SQLEXPRESS;Database=BarberShop;Trusted_Connection=True;TrustServerCertificate=true"); // Substitua "sua_string_de_conexao" pela sua string de conexão com o banco de dados
+
+            // Desabilitar a validação do certificado SSL
+            ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
+           
+            // Definir o protocolo de segurança TLS 1.2
+            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }
     }
 }
