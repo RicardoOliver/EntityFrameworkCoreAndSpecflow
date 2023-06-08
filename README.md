@@ -93,9 +93,13 @@ Funcionalidade: API da Barbearia
         Quando o cliente solicita os agendamentos
         Então os agendamentos são retornados corretamente
 ```
+
 # <p>Video </P>
 
+
+
 [![asciicast](https://img.youtube.com/vi/vt5fpE0bzSY/0.jpg)](https://github.com/RicardoOliver/BarbeariaEntityFrameworkSpecflow/blob/assets/20847532/cb702ce4-c2c7-4ae7-ae36-03efef5fc16e)
+
 
 
 
