@@ -93,7 +93,7 @@ Funcionalidade: API da Barbearia
         Quando o cliente solicita os agendamentos
         Então os agendamentos são retornados corretamente
 ```
-[![asciicast](https://img.youtube.com/vi/vt5fpE0bzSY/0.jpg)](https://github.com/RicardoOliver/BarbeariaEntityFrameworkSpecflow/blob/assets/20847532/cb702ce4-c2c7-4ae7-ae36-03efef5fc16e)
+[![asciicast](https://img.youtube.com/vi/vt5fpE0bzSY/0.jpg)](https://github.com/RicardoOliver/EntityFrameworkCoreAndSpecflow/assets/20847532/6d72c20a-8bc2-4d2a-abd8-b83417bdf38e)
 
 
 
