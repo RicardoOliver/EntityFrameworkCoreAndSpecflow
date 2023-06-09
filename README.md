@@ -74,22 +74,22 @@ Funcionalidade: API da Barbearia
 
     Cenário: Agendar um serviço
         Dado um cliente com os seguintes detalhes
-            | Nome       | Telefone       | Endereco            |
-            | John Doe   | (11) 987654321 | 123 Main Street     |
+            | Nome       | Telefone       | Endereco       |
+            | John Doe   | (11) 987654321 | 123 Main Street|
         E um funcionário com os seguintes detalhes
-            | Nome       | Função       | Telefone          | Salário |
-            | Jane Smith | Barbeiro     | (11) 123456789   | 2000.00 |
+            | Nome       | Função         | Telefone       | Salário |
+            | Jane Smith | Barbeiro       | (11) 123456789 | 2000.00 |
         E um serviço com os seguintes detalhes
-            | Nome       | Descrição         | Preço   |
-            | Corte      | Serviço de corte  | 50.00   |
+            | Nome       | Descrição       | Preço   |
+            | Corte      | Serviço de corte| 50.00   |
         Quando o cliente agenda o serviço com o funcionário em uma determinada data e hora
         Então o agendamento é criado com sucesso
 
     Cenário: Obter informações sobre os agendamentos
         Dado que existem os seguintes agendamentos
-            | Cliente     | Funcionário   | Serviço   | DataHora               |
-            | John Doe    | Jane Smith    | Corte     | 2023-06-04T10:00:00    |
-            | Jane Doe    | John Smith    | Barbear   | 2023-06-05T14:30:00    |
+            | Cliente     | Funcionário   | Serviço   | DataHora           |
+            | John Doe    | Jane Smith    | Corte     | 2023-06-04T10:00:00|
+            | Jane Doe    | John Smith    | Barbear   | 2023-06-05T14:30:00|
         Quando o cliente solicita os agendamentos
         Então os agendamentos são retornados corretamente
 ```
