@@ -19,7 +19,7 @@ No código fornecido, temos a classe BarberShopContext que representa o contexto
 ```C#
 public class BarberShopContext : DbContext
 {
-   ﻿using BarbeariaData.DataConfig;
+using BarbeariaData.DataConfig;
 using BarbeariaDomain.Entities;
 using Microsoft.EntityFrameworkCore;
 
