@@ -30,7 +30,7 @@ namespace BarbeariaData.Contexto
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=RICARDO-OLIVEIR\\SQLEXPRESS;Database=BarberShop;Trusted_Connection=True;TrustServerCertificate=true"); // Substitua "sua_string_de_conexao" pela sua string de conexão com o banco de dados
+            optionsBuilder.UseSqlServer("Server=;Database=BarberShop;Trusted_Connection=True;TrustServerCertificate=true"); // Substitua "sua_string_de_conexao" pela sua string de conexão com o banco de dados
 
             // Desabilitar a validação do certificado SSL
             ServicePointManager.ServerCertificateValidationCallback += (sender, cert, chain, sslPolicyErrors) => true;
